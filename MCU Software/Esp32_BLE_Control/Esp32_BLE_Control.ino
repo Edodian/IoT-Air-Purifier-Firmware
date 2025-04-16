@@ -32,7 +32,7 @@ bool deviceConnected = false;
 #define PMS_TX_PIN      17
 #define RED_LED_PIN      15
 #define MQ131_ANALOG_PIN 35
-#define ozoneThreshold  9999999
+#define ozoneThreshold  200
 
 // ---------------------- SENSORS ----------------------
 HardwareSerial mhz19Serial(1);
