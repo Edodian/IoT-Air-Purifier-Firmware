@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:backgroundTint="#000000"
+    android:foregroundTint="#00070000">
+
+    <TextView
+        android:id="@+id/dayName"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:text="Monday"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startTimeButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/start_time"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/dayName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endTimeButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/end_time"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/startTimeButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/daySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/endTimeButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

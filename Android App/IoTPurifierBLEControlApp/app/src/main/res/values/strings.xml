@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Recirculator Control</string>
+
+    <!-- main act -->
+    <string name="air_quality_title">Air quality</string>
+    <string name="recirculator_state_label">Recirculator state:</string>
+    <string name="connection_state_label">Connection state:</string>
+    <string name="state_off">OFF</string>
+    <string name="state_offline">Offline</string>
+    <string name="na_value">N/A</string>
+    <string name="ozone_label">Ozone (O3):</string>
+    <string name="temperature_label">Temperature:</string>
+    <string name="humidity_label">Humidity:</string>
+    <string name="co2_label">CO2:</string>
+    <string name="pm1_label">PM 1.0:</string>
+    <string name="pm25_label">PM 2.5:</string>
+    <string name="pm10_label">PM 10:</string>
+
+    <string name="scan_connect_label">Scan and Connect</string>
+    <string name="turn_on">Turn ON</string>
+    <string name="turn_off">Turn OFF</string>
+    <string name="set_schedule">Set schedule</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_second_actvity">SecondActvity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="connected">Online</string>
+    <string name="disconnected">Offline</string>
+    <string name="unit_temp">%1$s °C</string>
+    <string name="unit_hum">%1$s %%</string>
+    <string name="unit_co2">%1$s ppm</string>
+    <string name="unit_o3">%1$s ppb</string>
+    <string name="unit_pm">%1$s µg/m³</string>
+    <string name="unit_error">Invalid</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+</resources>
